@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MeteorView</string>
+    <string name="meteor_shower">Meteor Shower</string>
+    <string name="rain">Rain</string>
+</resources>

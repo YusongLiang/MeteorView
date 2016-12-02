@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.felix.meteorview.widget.MeteorView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rain_bg"
+        app:maxDistance="300dp"
+        app:meteorAngle="90"
+        app:meteorColor="#5536BBCE"
+        app:meteorOffsetBottom="300dp"
+        app:meteorRadius="1px"
+        app:speed="fast" />
+</LinearLayout>

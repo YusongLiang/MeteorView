@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeteorView">
+        <attr name="meteorRadius" format="dimension" />
+        <attr name="maxDistance" format="dimension" />
+        <attr name="numberOfMeteors" format="integer" />
+        <attr name="meteorColor" format="color" />
+        <attr name="meteorAngle" format="float" />
+        <attr name="speed" format="integer">
+            <enum name="fast" value="10" />
+            <enum name="normal" value="20" />
+            <enum name="slow" value="30" />
+        </attr>
+        <attr name="meteorOffsetTop" format="dimension"/>
+        <attr name="meteorOffsetRight" format="dimension"/>
+        <attr name="meteorOffsetBottom" format="dimension"/>
+        <attr name="meteorOffsetLeft" format="dimension"/>
+    </declare-styleable>
+</resources>
